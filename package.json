@@ -1,0 +1,33 @@
+{
+  "name": "coins-visualization",
+  "version": "1.0.0",
+  "description": "A coins visualization built in three.js for http://james.greenle.af",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/webpack --watch --progress --hide-modules --config=webpack.config.js",
+    "serve": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aMoniker/coins-visualization.git"
+  },
+  "keywords": [
+    "coins",
+    "three.js"
+  ],
+  "author": "James Greenleaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aMoniker/coins-visualization/issues"
+  },
+  "homepage": "https://github.com/aMoniker/coins-visualization#readme",
+  "dependencies": {
+    "three": "^0.86.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
